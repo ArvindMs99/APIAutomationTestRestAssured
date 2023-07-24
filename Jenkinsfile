@@ -13,7 +13,7 @@ pipeline {
         }
         stage('TEST') {
             steps {
-                bat 'mvn test -Dtest="RestAssuredTest1,RestAssuredTest2"'
+                bat 'mvn test -Dtest="RestAssuredTest1,RestAssuredTest2,RestAssuredTest3"'
                 echo 'TESTED'
             }
         }
