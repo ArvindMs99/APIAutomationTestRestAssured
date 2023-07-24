@@ -2,7 +2,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class RestAssuredTest3 {
+public class RestAssuredTest4 {
 
     final static String url="http://demo.guru99.com/V4/sinkministatement.php?CUSTOMER_ID=68195&PASSWORD=1234!&Account_No=1";
 
@@ -16,11 +16,11 @@ public class RestAssuredTest3 {
 
         if(statusCode==200)
         {
-            System.out.println("TEST3 PASSED");
+            System.out.println("TEST4 PASSED");
         }
         else
         {
-            System.out.println("TEST3 FAILED");
+            System.out.println("TEST4 FAILED");
         }
     }
 }

@@ -15,11 +15,11 @@ public class RestAssuredTest1 {
 
         if(statusCode==200)
         {
-            System.out.println("TEST PASSED1");
+            System.out.println("TEST1 PASSED");
         }
         else
         {
-            System.out.println("TEST FAILED1");
+            System.out.println("TEST1 FAILED");
         }
     }
 }
